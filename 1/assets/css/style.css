@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #135b4d;
+}
+
+.container {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 70vw;
+  height: 80vh;
+  margin: 0 auto;
+  background-color: #dddddd;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container .card .card-left {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  width: 45%;
+  height: 100%;
+}
+
+.container .card .card-right {
+  position: relative;
+  width: 55%;
+  height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+}
+
+.container .card .card-right::before, .container .card .card-right::after {
+  content: '';
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.container .card .card-right::before {
+  background-image: url("../images/item1.png");
+  height: 130px;
+  width: 130px;
+  margin-top: 40px;
+}
+
+.container .card .card-right::after {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-image: url("../images/item2.png");
+  height: 180px;
+  width: 110px;
+  bottom: 10px;
+}
+
+.container .card .card-right h1:nth-child(1) {
+  color: #135b4d;
+  font-weight: 400;
+  margin: 25px 0;
+}
+
+.container .card .card-right h1:not(:first-child) {
+  font-size: 4.5rem;
+  font-weight: 700;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-animation: wave;
+          animation: wave;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.container .card .card-right h1:not(:first-child):nth-child(2) {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.container .card .card-right h1:not(:first-child):nth-child(3) {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+}
+
+.container .card .card-right h1:not(:first-child):nth-child(4) {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+
+.container .card .card-right h1:not(:first-child):nth-child(5) {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: -0.45s;
+          animation-delay: -0.45s;
+}
+
+@-webkit-keyframes wave {
+  40%,
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  0%,
+  90%,
+  100% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+}
+
+@keyframes wave {
+  40%,
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  0%,
+  90%,
+  100% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-image: url("../images/bg.png");
+    background-size: contain;
+  }
+  .container .card .card-left {
+    display: none;
+  }
+  .container .card .card-right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 10px;
+  }
+  h1:not(:first-child) {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
