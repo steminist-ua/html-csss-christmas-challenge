@@ -9,3 +9,4 @@
 | 2 | ![d1](./assets/d2.gif) | https://github.com/steminist-ua/html-csss-christmas-challenge/tree/master/2 | https://youtu.be/qbQBXQ7UV4E
 | 3 | ![d1](./assets/d3.gif) | https://github.com/steminist-ua/html-csss-christmas-challenge/tree/master/3 | https://youtu.be/l2va9X2U4lg
 | 4 | ![d1](./assets/d4.gif) | https://github.com/steminist-ua/html-csss-christmas-challenge/tree/master/4 | https://youtu.be/NYPgo-iaq3k
+| 5 | ![d1](./assets/d5.gif) | https://github.com/steminist-ua/html-csss-christmas-challenge/tree/master/5 | https://youtu.be/vRzHXsDxgTQ
