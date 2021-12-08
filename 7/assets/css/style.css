@@ -86,76 +86,76 @@ body {
   border-left-color: transparent !important;
 }
 
-.tree__node:nth-of-type(1n+1) {
+.tree__node:nth-of-type(1n+2) {
   border-color: #f79fc5;
 }
 
-.tree__node:nth-of-type(2n+4) {
+.tree__node:nth-of-type(2n+7) {
   border-color: #ff6d51;
 }
 
-.tree__node:nth-of-type(3n+2) {
+.tree__node:nth-of-type(3n+6) {
   border-color: #f3b140;
 }
 
-.tree__node:nth-of-type(4n+7) {
+.tree__node:nth-of-type(4n+5) {
   border-color: #f9d53a;
 }
 
-.tree__node:nth-of-type(5n+3) {
+.tree__node:nth-of-type(5n+5) {
   border-color: #87b1d3;
 }
 
-.tree__node:nth-of-type(6n+3) {
+.tree__node:nth-of-type(6n+2) {
   border-color: #5bd9c3;
 }
 
-.tree__node:nth-of-type(7n+6) {
+.tree__node:nth-of-type(7n+7) {
   border-color: #7861be;
 }
 
-.tree__node:nth-of-type(8n+4) {
+.tree__node:nth-of-type(8n+2) {
   border-color: #a9c688;
 }
 
 .tree__node:nth-of-type(1n+3) {
-  -webkit-animation-duration: 1927ms;
-          animation-duration: 1927ms;
+  -webkit-animation-duration: 1259ms;
+          animation-duration: 1259ms;
 }
 
-.tree__node:nth-of-type(2n+9) {
-  -webkit-animation-duration: 1809ms;
-          animation-duration: 1809ms;
+.tree__node:nth-of-type(2n+4) {
+  -webkit-animation-duration: 1416ms;
+          animation-duration: 1416ms;
 }
 
-.tree__node:nth-of-type(3n+5) {
-  -webkit-animation-duration: 1491ms;
-          animation-duration: 1491ms;
+.tree__node:nth-of-type(3n+7) {
+  -webkit-animation-duration: 1965ms;
+          animation-duration: 1965ms;
 }
 
 .tree__node:nth-of-type(4n+4) {
-  -webkit-animation-duration: 2037ms;
-          animation-duration: 2037ms;
+  -webkit-animation-duration: 2328ms;
+          animation-duration: 2328ms;
 }
 
-.tree__node:nth-of-type(5n+5) {
-  -webkit-animation-duration: 2138ms;
-          animation-duration: 2138ms;
+.tree__node:nth-of-type(5n+3) {
+  -webkit-animation-duration: 2462ms;
+          animation-duration: 2462ms;
 }
 
-.tree__node:nth-of-type(6n+2) {
-  -webkit-animation-duration: 1202ms;
-          animation-duration: 1202ms;
+.tree__node:nth-of-type(6n+6) {
+  -webkit-animation-duration: 1459ms;
+          animation-duration: 1459ms;
 }
 
-.tree__node:nth-of-type(7n+6) {
-  -webkit-animation-duration: 2363ms;
-          animation-duration: 2363ms;
+.tree__node:nth-of-type(7n+5) {
+  -webkit-animation-duration: 2071ms;
+          animation-duration: 2071ms;
 }
 
-.tree__node:nth-of-type(8n+5) {
-  -webkit-animation-duration: 1569ms;
-          animation-duration: 1569ms;
+.tree__node:nth-of-type(8n+8) {
+  -webkit-animation-duration: 1099ms;
+          animation-duration: 1099ms;
 }
 
 .snow {
@@ -190,242 +190,242 @@ body {
 
 .snow__flake:nth-of-type(1n) {
   left: 2.5%;
-  -webkit-animation-duration: 2747ms;
-          animation-duration: 2747ms;
+  -webkit-animation-duration: 3486ms;
+          animation-duration: 3486ms;
 }
 
 .snow__flake:nth-of-type(2n) {
   left: 5%;
-  -webkit-animation-duration: 2351ms;
-          animation-duration: 2351ms;
+  -webkit-animation-duration: 2719ms;
+          animation-duration: 2719ms;
 }
 
 .snow__flake:nth-of-type(3n) {
   left: 7.5%;
-  -webkit-animation-duration: 3721ms;
-          animation-duration: 3721ms;
+  -webkit-animation-duration: 2805ms;
+          animation-duration: 2805ms;
 }
 
 .snow__flake:nth-of-type(4n) {
   left: 10%;
-  -webkit-animation-duration: 2972ms;
-          animation-duration: 2972ms;
+  -webkit-animation-duration: 1174ms;
+          animation-duration: 1174ms;
 }
 
 .snow__flake:nth-of-type(5n) {
   left: 12.5%;
-  -webkit-animation-duration: 2082ms;
-          animation-duration: 2082ms;
+  -webkit-animation-duration: 1654ms;
+          animation-duration: 1654ms;
 }
 
 .snow__flake:nth-of-type(6n) {
   left: 15%;
-  -webkit-animation-duration: 1898ms;
-          animation-duration: 1898ms;
+  -webkit-animation-duration: 2095ms;
+          animation-duration: 2095ms;
 }
 
 .snow__flake:nth-of-type(7n) {
   left: 17.5%;
-  -webkit-animation-duration: 3172ms;
-          animation-duration: 3172ms;
+  -webkit-animation-duration: 3084ms;
+          animation-duration: 3084ms;
 }
 
 .snow__flake:nth-of-type(8n) {
   left: 20%;
-  -webkit-animation-duration: 1005ms;
-          animation-duration: 1005ms;
+  -webkit-animation-duration: 2721ms;
+          animation-duration: 2721ms;
 }
 
 .snow__flake:nth-of-type(9n) {
   left: 22.5%;
-  -webkit-animation-duration: 1112ms;
-          animation-duration: 1112ms;
+  -webkit-animation-duration: 2879ms;
+          animation-duration: 2879ms;
 }
 
 .snow__flake:nth-of-type(10n) {
   left: 25%;
-  -webkit-animation-duration: 1363ms;
-          animation-duration: 1363ms;
+  -webkit-animation-duration: 2742ms;
+          animation-duration: 2742ms;
 }
 
 .snow__flake:nth-of-type(11n) {
   left: 27.5%;
-  -webkit-animation-duration: 1367ms;
-          animation-duration: 1367ms;
+  -webkit-animation-duration: 2224ms;
+          animation-duration: 2224ms;
 }
 
 .snow__flake:nth-of-type(12n) {
   left: 30%;
-  -webkit-animation-duration: 2705ms;
-          animation-duration: 2705ms;
+  -webkit-animation-duration: 1631ms;
+          animation-duration: 1631ms;
 }
 
 .snow__flake:nth-of-type(13n) {
   left: 32.5%;
-  -webkit-animation-duration: 1386ms;
-          animation-duration: 1386ms;
+  -webkit-animation-duration: 3991ms;
+          animation-duration: 3991ms;
 }
 
 .snow__flake:nth-of-type(14n) {
   left: 35%;
-  -webkit-animation-duration: 3450ms;
-          animation-duration: 3450ms;
+  -webkit-animation-duration: 1318ms;
+          animation-duration: 1318ms;
 }
 
 .snow__flake:nth-of-type(15n) {
   left: 37.5%;
-  -webkit-animation-duration: 1653ms;
-          animation-duration: 1653ms;
+  -webkit-animation-duration: 2056ms;
+          animation-duration: 2056ms;
 }
 
 .snow__flake:nth-of-type(16n) {
   left: 40%;
-  -webkit-animation-duration: 2898ms;
-          animation-duration: 2898ms;
+  -webkit-animation-duration: 3634ms;
+          animation-duration: 3634ms;
 }
 
 .snow__flake:nth-of-type(17n) {
   left: 42.5%;
-  -webkit-animation-duration: 3826ms;
-          animation-duration: 3826ms;
+  -webkit-animation-duration: 1977ms;
+          animation-duration: 1977ms;
 }
 
 .snow__flake:nth-of-type(18n) {
   left: 45%;
-  -webkit-animation-duration: 3990ms;
-          animation-duration: 3990ms;
+  -webkit-animation-duration: 1620ms;
+          animation-duration: 1620ms;
 }
 
 .snow__flake:nth-of-type(19n) {
   left: 47.5%;
-  -webkit-animation-duration: 2378ms;
-          animation-duration: 2378ms;
+  -webkit-animation-duration: 3571ms;
+          animation-duration: 3571ms;
 }
 
 .snow__flake:nth-of-type(20n) {
   left: 50%;
-  -webkit-animation-duration: 2992ms;
-          animation-duration: 2992ms;
+  -webkit-animation-duration: 3177ms;
+          animation-duration: 3177ms;
 }
 
 .snow__flake:nth-of-type(21n) {
   left: 52.5%;
-  -webkit-animation-duration: 3781ms;
-          animation-duration: 3781ms;
+  -webkit-animation-duration: 2080ms;
+          animation-duration: 2080ms;
 }
 
 .snow__flake:nth-of-type(22n) {
   left: 55%;
-  -webkit-animation-duration: 3021ms;
-          animation-duration: 3021ms;
+  -webkit-animation-duration: 2438ms;
+          animation-duration: 2438ms;
 }
 
 .snow__flake:nth-of-type(23n) {
   left: 57.5%;
-  -webkit-animation-duration: 1495ms;
-          animation-duration: 1495ms;
+  -webkit-animation-duration: 3195ms;
+          animation-duration: 3195ms;
 }
 
 .snow__flake:nth-of-type(24n) {
   left: 60%;
-  -webkit-animation-duration: 3544ms;
-          animation-duration: 3544ms;
+  -webkit-animation-duration: 1977ms;
+          animation-duration: 1977ms;
 }
 
 .snow__flake:nth-of-type(25n) {
   left: 62.5%;
-  -webkit-animation-duration: 2113ms;
-          animation-duration: 2113ms;
+  -webkit-animation-duration: 1905ms;
+          animation-duration: 1905ms;
 }
 
 .snow__flake:nth-of-type(26n) {
   left: 65%;
-  -webkit-animation-duration: 2222ms;
-          animation-duration: 2222ms;
+  -webkit-animation-duration: 3102ms;
+          animation-duration: 3102ms;
 }
 
 .snow__flake:nth-of-type(27n) {
   left: 67.5%;
-  -webkit-animation-duration: 2130ms;
-          animation-duration: 2130ms;
+  -webkit-animation-duration: 2794ms;
+          animation-duration: 2794ms;
 }
 
 .snow__flake:nth-of-type(28n) {
   left: 70%;
-  -webkit-animation-duration: 2277ms;
-          animation-duration: 2277ms;
+  -webkit-animation-duration: 2843ms;
+          animation-duration: 2843ms;
 }
 
 .snow__flake:nth-of-type(29n) {
   left: 72.5%;
-  -webkit-animation-duration: 1007ms;
-          animation-duration: 1007ms;
+  -webkit-animation-duration: 1949ms;
+          animation-duration: 1949ms;
 }
 
 .snow__flake:nth-of-type(30n) {
   left: 75%;
-  -webkit-animation-duration: 2755ms;
-          animation-duration: 2755ms;
+  -webkit-animation-duration: 3974ms;
+          animation-duration: 3974ms;
 }
 
 .snow__flake:nth-of-type(31n) {
   left: 77.5%;
-  -webkit-animation-duration: 1034ms;
-          animation-duration: 1034ms;
+  -webkit-animation-duration: 1247ms;
+          animation-duration: 1247ms;
 }
 
 .snow__flake:nth-of-type(32n) {
   left: 80%;
-  -webkit-animation-duration: 3688ms;
-          animation-duration: 3688ms;
+  -webkit-animation-duration: 1579ms;
+          animation-duration: 1579ms;
 }
 
 .snow__flake:nth-of-type(33n) {
   left: 82.5%;
-  -webkit-animation-duration: 2604ms;
-          animation-duration: 2604ms;
+  -webkit-animation-duration: 2448ms;
+          animation-duration: 2448ms;
 }
 
 .snow__flake:nth-of-type(34n) {
   left: 85%;
-  -webkit-animation-duration: 1910ms;
-          animation-duration: 1910ms;
+  -webkit-animation-duration: 3863ms;
+          animation-duration: 3863ms;
 }
 
 .snow__flake:nth-of-type(35n) {
   left: 87.5%;
-  -webkit-animation-duration: 2278ms;
-          animation-duration: 2278ms;
+  -webkit-animation-duration: 2092ms;
+          animation-duration: 2092ms;
 }
 
 .snow__flake:nth-of-type(36n) {
   left: 90%;
-  -webkit-animation-duration: 3814ms;
-          animation-duration: 3814ms;
+  -webkit-animation-duration: 2912ms;
+          animation-duration: 2912ms;
 }
 
 .snow__flake:nth-of-type(37n) {
   left: 92.5%;
-  -webkit-animation-duration: 1686ms;
-          animation-duration: 1686ms;
+  -webkit-animation-duration: 1405ms;
+          animation-duration: 1405ms;
 }
 
 .snow__flake:nth-of-type(38n) {
   left: 95%;
-  -webkit-animation-duration: 2895ms;
-          animation-duration: 2895ms;
+  -webkit-animation-duration: 1290ms;
+          animation-duration: 1290ms;
 }
 
 .snow__flake:nth-of-type(39n) {
   left: 97.5%;
-  -webkit-animation-duration: 1763ms;
-          animation-duration: 1763ms;
+  -webkit-animation-duration: 3407ms;
+          animation-duration: 3407ms;
 }
 
 .snow__flake:nth-of-type(40n) {
   left: 100%;
-  -webkit-animation-duration: 3581ms;
-          animation-duration: 3581ms;
+  -webkit-animation-duration: 1388ms;
+          animation-duration: 1388ms;
 }
 
 .snow__flake:nth-of-type(2n) {
