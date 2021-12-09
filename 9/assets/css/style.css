@@ -1,0 +1,113 @@
+body {
+  background-color: lightsalmon;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  color: papayawhip;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.xmas {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+  background-color: papayawhip;
+  width: 715px;
+  max-height: 480px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.xmas-row {
+  float: left;
+  margin-top: -230px;
+}
+
+.xmas-row:not(:first-child) {
+  margin-left: 30px;
+}
+
+.xmas-row:nth-child(odd) {
+  -webkit-animation: snow 8s linear infinite;
+          animation: snow 8s linear infinite;
+}
+
+.xmas-tree {
+  margin-bottom: 20px;
+}
+
+.xmas-tree_branch {
+  -webkit-animation: color 5s linear infinite;
+          animation: color 5s linear infinite;
+  width: 25px;
+  height: 25px;
+  border-right: 2px solid lightsalmon;
+  border-bottom: 2px solid mediumseagreen;
+  margin: 5px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+
+.xmas-tree_branch:nth-child(even) {
+  margin-top: -10px;
+}
+
+.xmas-pine {
+  margin-bottom: 30px;
+}
+
+.xmas-pine_branch {
+  -webkit-animation: color 5s linear infinite;
+          animation: color 5s linear infinite;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 25px 20px;
+  border-color: transparent transparent mediumseagreen transparent;
+}
+
+.xmas-pine_branch:first-child {
+  border-bottom-color: lightsalmon;
+  position: relative;
+  z-index: 10;
+}
+
+.xmas-pine_branch:not(:first-child) {
+  margin-top: -10px;
+}
+
+@-webkit-keyframes snow {
+  100% {
+    margin-top: -23px;
+  }
+}
+
+@keyframes snow {
+  100% {
+    margin-top: -23px;
+  }
+}
+
+@-webkit-keyframes color {
+  40%,
+  50% {
+    border-bottom-color: mediumturquoise;
+  }
+}
+
+@keyframes color {
+  40%,
+  50% {
+    border-bottom-color: mediumturquoise;
+  }
+}
+/*# sourceMappingURL=style.css.map */
